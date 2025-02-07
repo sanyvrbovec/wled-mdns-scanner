@@ -20,3 +20,20 @@ Install the required dependencies:
 
 ```bash
 pip install zeroconf
+
+
+Running the Script
+Execute the script:
+
+bash
+Kopiraj
+Uredi
+python wled_scanner.py
+If a WLED device is detected, its IP address will be displayed.
+
+Debugging
+If no device is found, check the following:
+
+Ensure the WLED device is connected to the same network.
+Verify that your router supports mDNS.
+Check if a firewall is blocking mDNS traffic.
